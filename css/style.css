@@ -222,3 +222,71 @@ ul.skills-list {
 /* end rotating words */
 
 /* media queries */
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .text {
+      width: 60%;
+    }
+    #section-1 {
+      display: none;
+    }
+    .skills-list li {
+      display: inline-block;
+      font-size: 14px;
+    }
+    .small-container {
+      width: 80%;
+    }
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .text {
+      width: 60%;
+    }
+    #section-1 {
+      display: none;
+    }
+    .skills-list li {
+      display: inline-block;
+      font-size: 14px;
+    }
+    .small-container {
+      width: 80%;
+    }
+}
+
+/* ----------- iPad ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #section-1 {
+      display: none;
+    }
+    #bg {
+      height: 1024px;
+    }
+    .text {
+      width: 36vw;
+    }
+    .small-container {
+      width: 80%;
+    }
+
+}
